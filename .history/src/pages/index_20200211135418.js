@@ -25,6 +25,7 @@ function Index() {
         This site will be live shortly. Please check back . 
       </p>
       <br />
+      <h2>The date according to Node.js (TypeScript) is:</h2>
       <p>{date ? date : 'Loading date...'}</p>
     </main>
   );

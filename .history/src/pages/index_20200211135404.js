@@ -22,9 +22,24 @@ function Index() {
         Digital Marketing & Tools for Community Banks
       </h2>
       <p>
-        This site will be live shortly. Please check back . 
+        <a
+          href="https://github.com/zeit/now-examples/blob/master/gatsby-functions"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          This project
+        </a>{' '}
+        is a <a href="https://www.gatsbyjs.org/">Gatsby</a> app with two
+        directories, <code>/src</code> for static content and <code>/api</code>{' '}
+        which contains a serverless{' '}
+        <a href="https://nodejs.org/en/">Node.js (TypeScript)</a> function. See{' '}
+        <a href="/api/date">
+          <code>api/date</code> for the Date API with Node.js (TypeScript)
+        </a>
+        .
       </p>
       <br />
+      <h2>The date according to Node.js (TypeScript) is:</h2>
       <p>{date ? date : 'Loading date...'}</p>
     </main>
   );
